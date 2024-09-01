@@ -1,0 +1,213 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: black;
+
+
+
+
+
+
+}
+.logo {
+  width: 5vw;
+  height: 5vh;
+  object-fit: contain;
+
+}
+.ullist {
+  margin-top: -32vh;
+}
+.leftSideCol {
+  width: 25vw;
+  position: fixed;
+}
+.button {
+  width: 15vw;
+  height: 8vh;
+  border-radius: 25px;
+}
+
+.liste svg {
+  width: 4vw;
+  height: 4vh;
+  object-fit: contain;
+}
+.midside {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+ 
+
+}
+.midlist {
+  gap: 10vw;
+  margin-top: 2vh;
+  margin-left: -5vw;
+}
+.toptable {
+  width: 75vw;
+  height: 8vh;
+}
+.active {
+  border-bottom: 4px solid rgb(73, 148, 229);
+  border-radius: 3px;
+  border-spacing: 2vh;
+
+
+}
+.centerside {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.tlogo {
+  width: 3vw;
+  height: 6vh;
+  object-fit: cover;
+}
+.inputlabel {
+
+  margin-left: 25vw;
+  position: relative;
+
+}
+.textarea {
+  width: 70vw;
+  height: 20vh;
+  color: white;
+  border: none;
+  resize: none;
+  margin-left: 0.5vw;
+  background-color: black;
+}
+.sendButton {
+  width: 5vw;
+  height: 5vh;
+  border-radius: 15px;
+  margin-left: 68vw;
+  margin-bottom: 1vh;
+
+
+}
+.centeranaside {
+  margin-top: 2vh;
+
+}
+
+.postlogo {
+  width: 3vw;
+  height: 6vh;
+  object-fit: cover;
+
+}
+
+.postdetails {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+
+}
+.post {
+  width: 70vw;
+
+}
+.postData {
+  margin-left: 3.8vw;
+  margin-top: -3.2vh;
+  overflow-wrap: break-word;
+}
+.bottomdetails {
+  margin-left: 3.7vw;
+  margin-top: -60vh;
+}
+.post {
+ margin-left: 2.5vw;
+}
+
+.postTop {
+  margin-right: 40vw;
+}
+.postdatadetails{
+  margin-left: -4.2vw;
+  margin-top: -0.7vh;
+}
+@media (min-width:768px) {
+  .postdatadetails {
+    margin-left: -4.5vw;
+  }
+  
+}
+@media (min-width: 1280px) {
+  .post {
+    margin-left: 80vw;
+  }
+
+}
+@media (min-width:1024px) {
+  .postdatadetails {
+    margin-left: -3.8vw;
+  }
+  
+}
+@media (max-width:767px) {
+  .logo {
+    width: 12vw;
+    height: 12vh;
+    object-fit: contain;
+    margin-top: -1vh;
+  }
+  .form {
+    margin-top: 5vh;
+  }
+  .toptable {
+    margin-right: -22vw;
+  }
+  .midlist li {
+    margin-left: -5vw;
+  }
+
+  .inputlabel {
+    margin-right: 30vw;
+    margin-top: -6vh;
+  }
+  .textarea {
+    width: 90vw;
+  }
+  .sendButton {
+    width: 15vw;
+    height: 5vh;
+    margin-left: 80vw;
+  }
+  .bottomdetails {
+    display: flex;
+    flex-direction: row;
+  }
+  .btns {
+    margin-left: 13vw;
+  }
+  .postdatadetails {
+    margin-top: 1vh;
+    margin-left: 3vh;
+  }
+  .postlogo {
+    width: 8vw;
+    height: 8vh;
+    object-fit: contain;
+  }
+  .postlogomsu {
+    width: 8vw;
+    height: 8vh;
+    object-fit: contain;
+  }
+  .postData {
+    width: 87vw;
+  }
+}
